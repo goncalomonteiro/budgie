@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 const SetTitle = ({ title }: { title: string }) => {
   useEffect(() => {
-    document.title = title + " | Personal Finance App";
+    document.title = title + " | budgie";
   }, [title]);
 
   return null;
